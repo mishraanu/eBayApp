@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Data>
+    
+    <scenario  name="default">
+        
+        <testdata name="loginName" value="anujamishra1991@gmail.com"/>
+        <testdata name="passsword" value="myEbay#8"/>
+        
+        <testdata name="itemSearchText" value="65 inch TV"/>
+        <testdata name="itemSearchOption" value="65 inch tv TV, Video &#38; Home Audio Electronics"/>
+ 
+ 
+          <testdata name="productTitle" value="LG Electronics 65UK6300PUE 65-Inch 4K Ultra HD Smart TV (2018 Model)"/>
+          <testdata name="productCompany" value="Brand New · LG · 65 in"/>
+          <testdata name="productPrise" value="&#36;767.54"/>
+ 
+        
+       
+    </scenario>
+    
+ </Data>
+    

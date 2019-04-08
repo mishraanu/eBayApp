@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [eBay Android App Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <parameter name="app_prop" value="app.properties"/>
+  <listeners>
+    <listener class-name="utility.ExtentReporterNG"/>
+  </listeners>
+  <test thread-count="5" name="Search_Scenario(failed)" verbose="0">
+    <classes>
+      <class name="testPacakge.LoginTest">
+        <methods>
+          <include name="verifyPurchaseItemFunctionalityForeBayApp" invocation-numbers="0"/>
+          <include name="verifySearchFunctionalityForeBayApp" invocation-numbers="0"/>
+          <include name="verifySelectItemFunctionalityForeBayApp" invocation-numbers="0"/>
+          <include name="launchEbayApp"/>
+        </methods>
+      </class> <!-- testPacakge.LoginTest -->
+    </classes>
+  </test> <!-- Search_Scenario(failed) -->
+</suite> <!-- Failed suite [eBay Android App Suite] -->

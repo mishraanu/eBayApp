@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="eBay Android App Suite" verbose="2" parallel="false" preserve-order="true">
+    
+    <parameter name="app_prop" value="app.properties"/>
+    
+    <listeners>
+              <listener class-name="utility.ExtentReporterNG"/>
+   </listeners>
+    
+    <test name="Search_Scenario" preserve-order="true">
+        <classes>
+            <class name="testPacakge.EbayTest">
+				<methods>
+				    <include name="initObject"/>
+					<include name="verifyEbayAppLaunchScreen"/>
+				 	<include name="verifySearchFunctionalityForeBayApp"/>
+				 	<include name="verifySelectItemFunctionalityForeBayApp"/>
+				 	<include name="verifyCheckoutFunctionalityForeBayApp"/>
+					</methods>
+			</class>			
+          </classes>  
+    </test>
+    
+</suite>
