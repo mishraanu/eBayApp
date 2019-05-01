@@ -26,7 +26,7 @@ ExtentTest test;
 public void generateReport (List<XmlSuite> xmlSuites, List<ISuite> suites, String outputDirectory) 
 {
 	extent = new ExtentReports(outputDirectory + File.separator
-			+ "SlackAutomationTestReport.html", true);
+			+ "ebayReport.html", true);
 
 	for (ISuite suite : suites) {
 		Map<String, ISuiteResult> result = suite.getResults();

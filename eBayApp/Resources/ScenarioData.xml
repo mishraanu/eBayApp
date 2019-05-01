@@ -10,9 +10,11 @@
         <testdata name="itemSearchOption" value="65 inch tv TV, Video &#38; Home Audio Electronics"/>
  
  
-          <testdata name="productTitle" value="LG Electronics 65UK6300PUE 65-Inch 4K Ultra HD Smart TV (2018 Model)"/>
-          <testdata name="productCompany" value="Brand New · LG · 65 in"/>
-          <testdata name="productPrise" value="&#36;767.54"/>
+         <!--  <testdata name="productTitle" value="LG 65UK6090PUA 65&#34; Inch LED 3840 x 2160 4K Ultra High Definition UHD Smart TV"/> -->
+            <testdata name="productTitle" value="LG 65EG9600 OLED CURVED 4K 65 Inch TV"/>
+         
+          <testdata name="productCompany" value="Pre-Owned · LG"/>
+          <testdata name="productPrise" value="&#36;800.00"/>
  
         
        

@@ -11,15 +11,21 @@
     
     <test name="Search_Scenario" preserve-order="true">
         <classes>
-            <class name="testPacakge.EbayTest">
+               <class name="testPacakge.EbayLoginTest">
 				<methods>
-				    <include name="initObject"/>
+				    <include name="initEbayLoginTest"/>
 					<include name="verifyEbayAppLaunchScreen"/>
+					<include name="verifyLoginFunctionalityForeBayApp"/>
+					</methods>
+                 </class>
+               <class name="testPacakge.EbayShoppingCartTest">
+				  <methods>
+				    <include name="initEbayShoppingCartTestObject"/>
 				 	<include name="verifySearchFunctionalityForeBayApp"/>
 				 	<include name="verifySelectItemFunctionalityForeBayApp"/>
 				 	<include name="verifyCheckoutFunctionalityForeBayApp"/>
 					</methods>
-			</class>			
+			   </class>			
           </classes>  
     </test>
     

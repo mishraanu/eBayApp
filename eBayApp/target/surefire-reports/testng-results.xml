@@ -1,65 +1,82 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="6" passed="5" failed="0" skipped="0">
+<testng-results ignored="1" total="8" passed="7" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2019-04-08T14:33:36Z" name="eBay Android App Suite" finished-at="2019-04-08T14:35:21Z" duration-ms="105080">
+  <suite started-at="2019-05-01T15:22:14Z" name="eBay Android App Suite" finished-at="2019-05-01T15:24:32Z" duration-ms="138026">
     <groups>
     </groups>
-    <test started-at="2019-04-08T14:33:36Z" name="Search_Scenario" finished-at="2019-04-08T14:35:21Z" duration-ms="105080">
-      <class name="testPacakge.LoginTest">
-        <test-method is-config="true" signature="launchEbayApp()[pri:0, instance:testPacakge.LoginTest@3a44431a]" started-at="2019-04-08T14:33:36Z" name="launchEbayApp" finished-at="2019-04-08T14:33:51Z" duration-ms="14926" status="PASS">
+    <test started-at="2019-05-01T15:22:14Z" name="Search_Scenario" finished-at="2019-05-01T15:24:32Z" duration-ms="138026">
+      <class name="testPacakge.EbayShoppingCartTest">
+        <test-method signature="initEbayShoppingCartTestObject()[pri:0, instance:testPacakge.EbayShoppingCartTest@2805d709]" started-at="2019-05-01T15:23:19Z" name="initEbayShoppingCartTestObject" description="To create object." finished-at="2019-05-01T15:23:19Z" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- launchEbayApp -->
-        <test-method signature="initObject()[pri:0, instance:testPacakge.LoginTest@3a44431a]" started-at="2019-04-08T14:33:51Z" name="initObject" description="To create object." finished-at="2019-04-08T14:33:51Z" duration-ms="51" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initObject -->
-        <test-method signature="verifyEbayAppLaunchScreen(java.util.HashMap)[pri:0, instance:testPacakge.LoginTest@3a44431a]" started-at="2019-04-08T14:33:51Z" name="verifyEbayAppLaunchScreen" description="verify Launch screen one of eBay Android app and navigate to Login screen." data-provider="globaldataprovider" finished-at="2019-04-08T14:33:55Z" duration-ms="4062" status="PASS">
+        </test-method> <!-- initEbayShoppingCartTestObject -->
+        <test-method signature="verifySearchFunctionalityForeBayApp(java.util.HashMap)[pri:0, instance:testPacakge.EbayShoppingCartTest@2805d709]" started-at="2019-05-01T15:23:19Z" name="verifySearchFunctionalityForeBayApp" description="verify search functionality for eBya App." data-provider="globaldataprovider" finished-at="2019-05-01T15:23:32Z" duration-ms="12746" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{productTitle=LG Electronics 65UK6300PUE 65-Inch 4K Ultra HD Smart TV (2018 Model), productCompany=Brand New · LG · 65 in, passsword=myEbay#8, itemSearchOption=65 inch tv TV, Video & Home Audio Electronics, loginName=anujamishra1991@gmail.com, itemSearchText=65 inch TV, productPrise=$767.54}]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyEbayAppLaunchScreen -->
-        <test-method signature="verifySearchFunctionalityForeBayApp(java.util.HashMap)[pri:0, instance:testPacakge.LoginTest@3a44431a]" started-at="2019-04-08T14:33:55Z" name="verifySearchFunctionalityForeBayApp" description="verify search functionality for eBya App." data-provider="globaldataprovider" finished-at="2019-04-08T14:34:09Z" duration-ms="13872" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[{productTitle=LG Electronics 65UK6300PUE 65-Inch 4K Ultra HD Smart TV (2018 Model), productCompany=Brand New · LG · 65 in, passsword=myEbay#8, itemSearchOption=65 inch tv TV, Video & Home Audio Electronics, loginName=anujamishra1991@gmail.com, itemSearchText=65 inch TV, productPrise=$767.54}]]>
+                <![CDATA[{productTitle=LG 65EG9600 OLED CURVED 4K 65 Inch TV, productCompany=Pre-Owned · LG, passsword=myEbay#8, itemSearchOption=65 inch tv TV, Video & Home Audio Electronics, loginName=anujamishra1991@gmail.com, itemSearchText=65 inch TV, productPrise=$800.00}]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySearchFunctionalityForeBayApp -->
-        <test-method signature="verifySelectItemFunctionalityForeBayApp(java.util.HashMap)[pri:0, instance:testPacakge.LoginTest@3a44431a]" started-at="2019-04-08T14:34:09Z" name="verifySelectItemFunctionalityForeBayApp" description="verify select item functionality for cart for eBya App." data-provider="globaldataprovider" finished-at="2019-04-08T14:34:49Z" duration-ms="40487" status="PASS">
+        <test-method signature="verifySelectItemFunctionalityForeBayApp(java.util.HashMap)[pri:0, instance:testPacakge.EbayShoppingCartTest@2805d709]" started-at="2019-05-01T15:23:32Z" name="verifySelectItemFunctionalityForeBayApp" description="verify select item functionality for cart for eBya App." data-provider="globaldataprovider" finished-at="2019-05-01T15:24:04Z" duration-ms="31548" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{productTitle=LG Electronics 65UK6300PUE 65-Inch 4K Ultra HD Smart TV (2018 Model), productCompany=Brand New · LG · 65 in, passsword=myEbay#8, itemSearchOption=65 inch tv TV, Video & Home Audio Electronics, loginName=anujamishra1991@gmail.com, itemSearchText=65 inch TV, productPrise=$767.54}]]>
+                <![CDATA[{productTitle=LG 65EG9600 OLED CURVED 4K 65 Inch TV, productCompany=Pre-Owned · LG, passsword=myEbay#8, itemSearchOption=65 inch tv TV, Video & Home Audio Electronics, loginName=anujamishra1991@gmail.com, itemSearchText=65 inch TV, productPrise=$800.00}]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySelectItemFunctionalityForeBayApp -->
-        <test-method signature="verifyPurchaseItemFunctionalityForeBayApp(java.util.HashMap)[pri:0, instance:testPacakge.LoginTest@3a44431a]" started-at="2019-04-08T14:34:49Z" name="verifyPurchaseItemFunctionalityForeBayApp" description="verify purchase item functionality for cart for eBya App." data-provider="globaldataprovider" finished-at="2019-04-08T14:35:21Z" duration-ms="31651" status="PASS">
+        <test-method signature="verifyCheckoutFunctionalityForeBayApp(java.util.HashMap)[pri:0, instance:testPacakge.EbayShoppingCartTest@2805d709]" started-at="2019-05-01T15:24:04Z" name="verifyCheckoutFunctionalityForeBayApp" description="verify checkout item functionality for cart for eBya App." data-provider="globaldataprovider" finished-at="2019-05-01T15:24:32Z" duration-ms="27954" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{productTitle=LG Electronics 65UK6300PUE 65-Inch 4K Ultra HD Smart TV (2018 Model), productCompany=Brand New · LG · 65 in, passsword=myEbay#8, itemSearchOption=65 inch tv TV, Video & Home Audio Electronics, loginName=anujamishra1991@gmail.com, itemSearchText=65 inch TV, productPrise=$767.54}]]>
+                <![CDATA[{productTitle=LG 65EG9600 OLED CURVED 4K 65 Inch TV, productCompany=Pre-Owned · LG, passsword=myEbay#8, itemSearchOption=65 inch tv TV, Video & Home Audio Electronics, loginName=anujamishra1991@gmail.com, itemSearchText=65 inch TV, productPrise=$800.00}]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyPurchaseItemFunctionalityForeBayApp -->
-      </class> <!-- testPacakge.LoginTest -->
+        </test-method> <!-- verifyCheckoutFunctionalityForeBayApp -->
+      </class> <!-- testPacakge.EbayShoppingCartTest -->
+      <class name="testPacakge.EbayLoginTest">
+        <test-method is-config="true" signature="launchEbayApp()[pri:0, instance:testPacakge.EbayLoginTest@6e0f5f7f]" started-at="2019-05-01T15:22:14Z" name="launchEbayApp" finished-at="2019-05-01T15:22:28Z" duration-ms="14327" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchEbayApp -->
+        <test-method signature="initEbayLoginTest()[pri:0, instance:testPacakge.EbayLoginTest@6e0f5f7f]" started-at="2019-05-01T15:22:28Z" name="initEbayLoginTest" description="To create object." finished-at="2019-05-01T15:22:28Z" duration-ms="41" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initEbayLoginTest -->
+        <test-method signature="verifyEbayAppLaunchScreen(java.util.HashMap)[pri:0, instance:testPacakge.EbayLoginTest@6e0f5f7f]" started-at="2019-05-01T15:22:28Z" name="verifyEbayAppLaunchScreen" description="verify Launch screen one of eBay Android app and navigate to Login screen." data-provider="globaldataprovider" finished-at="2019-05-01T15:22:43Z" duration-ms="14685" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{productTitle=LG 65EG9600 OLED CURVED 4K 65 Inch TV, productCompany=Pre-Owned · LG, passsword=myEbay#8, itemSearchOption=65 inch tv TV, Video & Home Audio Electronics, loginName=anujamishra1991@gmail.com, itemSearchText=65 inch TV, productPrise=$800.00}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEbayAppLaunchScreen -->
+        <test-method signature="verifyLoginFunctionalityForeBayApp(java.util.HashMap)[pri:0, instance:testPacakge.EbayLoginTest@6e0f5f7f]" started-at="2019-05-01T15:22:43Z" name="verifyLoginFunctionalityForeBayApp" description="verify login functionality for eBya App." data-provider="globaldataprovider" finished-at="2019-05-01T15:23:19Z" duration-ms="36692" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{productTitle=LG 65EG9600 OLED CURVED 4K 65 Inch TV, productCompany=Pre-Owned · LG, passsword=myEbay#8, itemSearchOption=65 inch tv TV, Video & Home Audio Electronics, loginName=anujamishra1991@gmail.com, itemSearchText=65 inch TV, productPrise=$800.00}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginFunctionalityForeBayApp -->
+      </class> <!-- testPacakge.EbayLoginTest -->
     </test> <!-- Search_Scenario -->
   </suite> <!-- eBay Android App Suite -->
 </testng-results>
