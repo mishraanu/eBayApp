@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-eBay_Android_App_Suite" class="navigator-link">
+              <span class="suite-name border-passed">eBay Android App Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-eBay_Android_App_Suite" class="navigator-link ">
+                    <span>eBay_TestNG.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-eBay_Android_App_Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-eBay_Android_App_Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-eBay_Android_App_Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-eBay_Android_App_Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-eBay_Android_App_Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-eBay_Android_App_Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">7 methods,   7 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-eBay_Android_App_Suite" class="hide-methods passed suite-eBay_Android_App_Suite"> (hide)</a> <!-- hide-methods passed suite-eBay_Android_App_Suite -->
+                      <a href="#" panel-name="suite-eBay_Android_App_Suite" class="show-methods passed suite-eBay_Android_App_Suite"> (show)</a> <!-- show-methods passed suite-eBay_Android_App_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-eBay_Android_App_Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-eBay_Android_App_Suite" title="testPacakge.EbayLoginTest" class="method navigator-link" hash-for-method="initEbayLoginTest">initEbayLoginTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-eBay_Android_App_Suite" title="testPacakge.EbayShoppingCartTest" class="method navigator-link" hash-for-method="initEbayShoppingCartTestObject">initEbayShoppingCartTestObject</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-eBay_Android_App_Suite" title="testPacakge.EbayShoppingCartTest" class="method navigator-link" hash-for-method="verifyCheckoutFunctionalityForeBayApp({productTitle=LG 65EG9600 OLED CURVED 4K 65 Inch TV, productCompany=Pre-Owned · LG, passsword=myEbay...)">verifyCheckoutFunctionalityForeBayApp({productTitle=LG 65EG9600 OLED CURVED 4K 65 Inch TV, productCompany=Pre-Owned · LG, passsword=myEbay...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-eBay_Android_App_Suite" title="testPacakge.EbayLoginTest" class="method navigator-link" hash-for-method="verifyEbayAppLaunchScreen({productTitle=LG 65EG9600 OLED CURVED 4K 65 Inch TV, productCompany=Pre-Owned · LG, passsword=myEbay...)">verifyEbayAppLaunchScreen({productTitle=LG 65EG9600 OLED CURVED 4K 65 Inch TV, productCompany=Pre-Owned · LG, passsword=myEbay...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-eBay_Android_App_Suite" title="testPacakge.EbayLoginTest" class="method navigator-link" hash-for-method="verifyLoginFunctionalityForeBayApp({productTitle=LG 65EG9600 OLED CURVED 4K 65 Inch TV, productCompany=Pre-Owned · LG, passsword=myEbay...)">verifyLoginFunctionalityForeBayApp({productTitle=LG 65EG9600 OLED CURVED 4K 65 Inch TV, productCompany=Pre-Owned · LG, passsword=myEbay...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-eBay_Android_App_Suite" title="testPacakge.EbayShoppingCartTest" class="method navigator-link" hash-for-method="verifySearchFunctionalityForeBayApp({productTitle=LG 65EG9600 OLED CURVED 4K 65 Inch TV, productCompany=Pre-Owned · LG, passsword=myEbay...)">verifySearchFunctionalityForeBayApp({productTitle=LG 65EG9600 OLED CURVED 4K 65 Inch TV, productCompany=Pre-Owned · LG, passsword=myEbay...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-eBay_Android_App_Suite" title="testPacakge.EbayShoppingCartTest" class="method navigator-link" hash-for-method="verifySelectItemFunctionalityForeBayApp({productTitle=LG 65EG9600 OLED CURVED 4K 65 Inch TV, productCompany=Pre-Owned · LG, passsword=myEbay...)">verifySelectItemFunctionalityForeBayApp({productTitle=LG 65EG9600 OLED CURVED 4K 65 Inch TV, productCompany=Pre-Owned · LG, passsword=myEbay...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-eBay_Android_App_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-eBay_Android_App_Suite" class="panel eBay_Android_App_Suite">
+          <div class="suite-eBay_Android_App_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testPacakge.EbayShoppingCartTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="initEbayShoppingCartTestObject">
+                  </a> <!-- initEbayShoppingCartTestObject -->
+                  <span class="method-name">initEbayShoppingCartTestObject</span>
+                  <em>
+(To create object.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCheckoutFunctionalityForeBayApp({productTitle=LG 65EG9600 OLED CURVED 4K 65 Inch TV, productCompany=Pre-Owned · LG, passsword=myEbay...)">
+                  </a> <!-- verifyCheckoutFunctionalityForeBayApp({productTitle=LG 65EG9600 OLED CURVED 4K 65 Inch TV, productCompany=Pre-Owned · LG, passsword=myEbay...) -->
+                  <span class="method-name">verifyCheckoutFunctionalityForeBayApp</span>
+                  <span class="parameters">({productTitle=LG 65EG9600 OLED CURVED 4K 65 Inch TV, productCompany=Pre-Owned · LG, passsword=myEbay#8, itemSearchOption=65 inch tv TV, Video & Home Audio Electronics, loginName=anujamishra1991@gmail.com, itemSearchText=65 inch TV, productPrise=$800.00})</span>
+                  <em>
+(verify checkout item functionality for cart for eBya App.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySearchFunctionalityForeBayApp({productTitle=LG 65EG9600 OLED CURVED 4K 65 Inch TV, productCompany=Pre-Owned · LG, passsword=myEbay...)">
+                  </a> <!-- verifySearchFunctionalityForeBayApp({productTitle=LG 65EG9600 OLED CURVED 4K 65 Inch TV, productCompany=Pre-Owned · LG, passsword=myEbay...) -->
+                  <span class="method-name">verifySearchFunctionalityForeBayApp</span>
+                  <span class="parameters">({productTitle=LG 65EG9600 OLED CURVED 4K 65 Inch TV, productCompany=Pre-Owned · LG, passsword=myEbay#8, itemSearchOption=65 inch tv TV, Video & Home Audio Electronics, loginName=anujamishra1991@gmail.com, itemSearchText=65 inch TV, productPrise=$800.00})</span>
+                  <em>
+(verify search functionality for eBya App.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySelectItemFunctionalityForeBayApp({productTitle=LG 65EG9600 OLED CURVED 4K 65 Inch TV, productCompany=Pre-Owned · LG, passsword=myEbay...)">
+                  </a> <!-- verifySelectItemFunctionalityForeBayApp({productTitle=LG 65EG9600 OLED CURVED 4K 65 Inch TV, productCompany=Pre-Owned · LG, passsword=myEbay...) -->
+                  <span class="method-name">verifySelectItemFunctionalityForeBayApp</span>
+                  <span class="parameters">({productTitle=LG 65EG9600 OLED CURVED 4K 65 Inch TV, productCompany=Pre-Owned · LG, passsword=myEbay#8, itemSearchOption=65 inch tv TV, Video & Home Audio Electronics, loginName=anujamishra1991@gmail.com, itemSearchText=65 inch TV, productPrise=$800.00})</span>
+                  <em>
+(verify select item functionality for cart for eBya App.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-eBay_Android_App_Suite-class-passed -->
+          <div class="suite-eBay_Android_App_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testPacakge.EbayLoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="initEbayLoginTest">
+                  </a> <!-- initEbayLoginTest -->
+                  <span class="method-name">initEbayLoginTest</span>
+                  <em>
+(To create object.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyEbayAppLaunchScreen({productTitle=LG 65EG9600 OLED CURVED 4K 65 Inch TV, productCompany=Pre-Owned · LG, passsword=myEbay...)">
+                  </a> <!-- verifyEbayAppLaunchScreen({productTitle=LG 65EG9600 OLED CURVED 4K 65 Inch TV, productCompany=Pre-Owned · LG, passsword=myEbay...) -->
+                  <span class="method-name">verifyEbayAppLaunchScreen</span>
+                  <span class="parameters">({productTitle=LG 65EG9600 OLED CURVED 4K 65 Inch TV, productCompany=Pre-Owned · LG, passsword=myEbay#8, itemSearchOption=65 inch tv TV, Video & Home Audio Electronics, loginName=anujamishra1991@gmail.com, itemSearchText=65 inch TV, productPrise=$800.00})</span>
+                  <em>
+(verify Launch screen one of eBay Android app and navigate to Login screen.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLoginFunctionalityForeBayApp({productTitle=LG 65EG9600 OLED CURVED 4K 65 Inch TV, productCompany=Pre-Owned · LG, passsword=myEbay...)">
+                  </a> <!-- verifyLoginFunctionalityForeBayApp({productTitle=LG 65EG9600 OLED CURVED 4K 65 Inch TV, productCompany=Pre-Owned · LG, passsword=myEbay...) -->
+                  <span class="method-name">verifyLoginFunctionalityForeBayApp</span>
+                  <span class="parameters">({productTitle=LG 65EG9600 OLED CURVED 4K 65 Inch TV, productCompany=Pre-Owned · LG, passsword=myEbay#8, itemSearchOption=65 inch tv TV, Video & Home Audio Electronics, loginName=anujamishra1991@gmail.com, itemSearchText=65 inch TV, productPrise=$800.00})</span>
+                  <em>
+(verify login functionality for eBya App.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-eBay_Android_App_Suite-class-passed -->
+        </div> <!-- panel eBay_Android_App_Suite -->
+        <div panel-name="test-xml-eBay_Android_App_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/Users/anmishra/git/repositoryEbayApp/eBayApp/eBay_TestNG.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;eBay Android App Suite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;parameter name=&quot;app_prop&quot; value=&quot;app.properties&quot;/&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;utility.ExtentReporterNG&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Search_Scenario&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;testPacakge.EbayLoginTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;initEbayLoginTest&quot;/&gt;
+          &lt;include name=&quot;verifyEbayAppLaunchScreen&quot;/&gt;
+          &lt;include name=&quot;verifyLoginFunctionalityForeBayApp&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- testPacakge.EbayLoginTest --&gt;
+      &lt;class name=&quot;testPacakge.EbayShoppingCartTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;initEbayShoppingCartTestObject&quot;/&gt;
+          &lt;include name=&quot;verifySearchFunctionalityForeBayApp&quot;/&gt;
+          &lt;include name=&quot;verifySelectItemFunctionalityForeBayApp&quot;/&gt;
+          &lt;include name=&quot;verifyCheckoutFunctionalityForeBayApp&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- testPacakge.EbayShoppingCartTest --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Search_Scenario --&gt;
+&lt;/suite&gt; &lt;!-- eBay Android App Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-eBay_Android_App_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for eBay Android App Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Search_Scenario (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-eBay_Android_App_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for eBay Android App Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-eBay_Android_App_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for eBay Android App Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_eBay_Android_App_Suite');
+function tableData_eBay_Android_App_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(7);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'verifyCheckoutFunctionalityForeBayApp')
+data.setCell(0, 2, 'testPacakge.EbayShoppingCartTest')
+data.setCell(0, 3, 97236);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'verifySelectItemFunctionalityForeBayApp')
+data.setCell(1, 2, 'testPacakge.EbayShoppingCartTest')
+data.setCell(1, 3, 52658);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'verifyLoginFunctionalityForeBayApp')
+data.setCell(2, 2, 'testPacakge.EbayLoginTest')
+data.setCell(2, 3, 26366);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'verifySearchFunctionalityForeBayApp')
+data.setCell(3, 2, 'testPacakge.EbayShoppingCartTest')
+data.setCell(3, 3, 23146);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'verifyEbayAppLaunchScreen')
+data.setCell(4, 2, 'testPacakge.EbayLoginTest')
+data.setCell(4, 3, 11293);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'initEbayLoginTest')
+data.setCell(5, 2, 'testPacakge.EbayLoginTest')
+data.setCell(5, 3, 3);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'initEbayShoppingCartTestObject')
+data.setCell(6, 2, 'testPacakge.EbayShoppingCartTest')
+data.setCell(6, 3, 0);
+window.suiteTableData['eBay_Android_App_Suite']= { tableData: data, tableDiv: 'times-div-eBay_Android_App_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 3 minutes</span>
+              <div id="times-div-eBay_Android_App_Suite">
+              </div> <!-- times-div-eBay_Android_App_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-eBay_Android_App_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for eBay Android App Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyEbayAppLaunchScreen({productTitle=LG 65EG9600 OLED CURVED 4K 65 Inch TV, productCompany=Pre-Owned · LG, passsword=myEbay...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">[Msg-Info] : Checking if an element is visible</span>
+                <span class="reporter-method-output">[Msg-Result] Is Displayed : true</span>
+                <span class="reporter-method-output">[Msg-Result] Is Enabled : true</span>
+                <span class="reporter-method-output">[Msg-Success] : Element is visible</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyCheckoutFunctionalityForeBayApp({productTitle=LG 65EG9600 OLED CURVED 4K 65 Inch TV, productCompany=Pre-Owned · LG, passsword=myEbay...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">[Msg-Info] : Checking if an element is visible</span>
+                <span class="reporter-method-output">[Msg-Info] : Element is not visible</span>
+                <span class="reporter-method-output">[Msg-Info] : Checking if an element is visible</span>
+                <span class="reporter-method-output">[Msg-Info] : Element is not visible</span>
+                <span class="reporter-method-output">[Msg-Info] : Checking if an element is visible</span>
+                <span class="reporter-method-output">[Msg-Info] : Element is not visible</span>
+                <span class="reporter-method-output">[Msg-Info] : Tapping on element...</span>
+                <span class="reporter-method-output">An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.99 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ATH032863', ip: '192.168.43.174', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.2', java.version: '11.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=com.ebay.mobile, statBarHeight=63, viewportRect={top=63, left=0, width=1080, height=1731}, deviceName=emulator-5554, platform=LINUX, deviceUDID=emulator-5554, desired={appPackage=com.ebay.mobile, appActivity=com.ebay.mobile.activities.MainActivity, app=/Users/anmishra/Android/eBay.apk, automationName=UiAutomator2, platformName=Android, deviceName=emulator-5554}, platformVersion=9, webStorageEnabled=false, automationName=UiAutomator2, takesScreenshot=true, javascriptEnabled=true, platformName=Android, deviceApiLevel=28, deviceManufacturer=Google, app=/Users/anmishra/Android/eBay.apk, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, appActivity=com.ebay.mobile.activities.MainActivity, pixelRatio=2.625, locationContextEnabled=false, deviceScreenDensity=420, deviceModel=Android SDK built for x86}]
+Session ID: 4beb2e48-5a40-48e7-a189-ab8be035fdc3
+*** Element info: {Using=id, value=com.ebay.mobile:id/button_view_in_cart}</span>
+                <span class="reporter-method-output">[Msg-Info] :  Verifying presence of : ITEMINCART</span>
+                <span class="reporter-method-output">An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.01 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ATH032863', ip: '192.168.43.174', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.2', java.version: '11.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=com.ebay.mobile, statBarHeight=63, viewportRect={top=63, left=0, width=1080, height=1731}, deviceName=emulator-5554, platform=LINUX, deviceUDID=emulator-5554, desired={appPackage=com.ebay.mobile, appActivity=com.ebay.mobile.activities.MainActivity, app=/Users/anmishra/Android/eBay.apk, automationName=UiAutomator2, platformName=Android, deviceName=emulator-5554}, platformVersion=9, webStorageEnabled=false, automationName=UiAutomator2, takesScreenshot=true, javascriptEnabled=true, platformName=Android, deviceApiLevel=28, deviceManufacturer=Google, app=/Users/anmishra/Android/eBay.apk, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, appActivity=com.ebay.mobile.activities.MainActivity, pixelRatio=2.625, locationContextEnabled=false, deviceScreenDensity=420, deviceModel=Android SDK built for x86}]
+Session ID: 4beb2e48-5a40-48e7-a189-ab8be035fdc3
+*** Element info: {Using=id, value=com.ebay.mobile:id/item_thumbnail}</span>
+                <span class="reporter-method-output">[Msg-Info] :  Verifying presence of : ITEMPRISE</span>
+                <span class="reporter-method-output">An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.03 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ATH032863', ip: '192.168.43.174', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.2', java.version: '11.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=com.ebay.mobile, statBarHeight=63, viewportRect={top=63, left=0, width=1080, height=1731}, deviceName=emulator-5554, platform=LINUX, deviceUDID=emulator-5554, desired={appPackage=com.ebay.mobile, appActivity=com.ebay.mobile.activities.MainActivity, app=/Users/anmishra/Android/eBay.apk, automationName=UiAutomator2, platformName=Android, deviceName=emulator-5554}, platformVersion=9, webStorageEnabled=false, automationName=UiAutomator2, takesScreenshot=true, javascriptEnabled=true, platformName=Android, deviceApiLevel=28, deviceManufacturer=Google, app=/Users/anmishra/Android/eBay.apk, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, appActivity=com.ebay.mobile.activities.MainActivity, pixelRatio=2.625, locationContextEnabled=false, deviceScreenDensity=420, deviceModel=Android SDK built for x86}]
+Session ID: 4beb2e48-5a40-48e7-a189-ab8be035fdc3
+*** Element info: {Using=id, value=com.ebay.mobile:id/item_price}</span>
+                <span class="reporter-method-output">[Msg-Info] : Tapping on element...</span>
+                <span class="reporter-method-output">An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.05 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ATH032863', ip: '192.168.43.174', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.2', java.version: '11.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=com.ebay.mobile, statBarHeight=63, viewportRect={top=63, left=0, width=1080, height=1731}, deviceName=emulator-5554, platform=LINUX, deviceUDID=emulator-5554, desired={appPackage=com.ebay.mobile, appActivity=com.ebay.mobile.activities.MainActivity, app=/Users/anmishra/Android/eBay.apk, automationName=UiAutomator2, platformName=Android, deviceName=emulator-5554}, platformVersion=9, webStorageEnabled=false, automationName=UiAutomator2, takesScreenshot=true, javascriptEnabled=true, platformName=Android, deviceApiLevel=28, deviceManufacturer=Google, app=/Users/anmishra/Android/eBay.apk, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, appActivity=com.ebay.mobile.activities.MainActivity, pixelRatio=2.625, locationContextEnabled=false, deviceScreenDensity=420, deviceModel=Android SDK built for x86}]
+Session ID: 4beb2e48-5a40-48e7-a189-ab8be035fdc3
+*** Element info: {Using=id, value=com.ebay.mobile:id/shopping_cart_button_layout}</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifySearchFunctionalityForeBayApp({productTitle=LG 65EG9600 OLED CURVED 4K 65 Inch TV, productCompany=Pre-Owned · LG, passsword=myEbay...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">[Msg-Info] : Tapping on element...</span>
+                <span class="reporter-method-output">[Msg-Info] : Entering Text in a text field</span>
+                <span class="reporter-method-output">[Msg-Info] : Looks like there is some text present already, clearing that text...</span>
+                <span class="reporter-method-output">Entering text in :65 inch TV</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifyLoginFunctionalityForeBayApp({productTitle=LG 65EG9600 OLED CURVED 4K 65 Inch TV, productCompany=Pre-Owned · LG, passsword=myEbay...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">[Msg-Info] : Tapping on element...</span>
+                <span class="reporter-method-output">[Msg-Info] : Checking if an element is visible</span>
+                <span class="reporter-method-output">[Msg-Result] Is Displayed : true</span>
+                <span class="reporter-method-output">[Msg-Result] Is Enabled : true</span>
+                <span class="reporter-method-output">[Msg-Success] : Element is visible</span>
+                <span class="reporter-method-output">[Msg-Info] : Tapping on element...</span>
+                <span class="reporter-method-output">[Msg-Info] : Entering Text in a text field</span>
+                <span class="reporter-method-output">[Msg-Info] : Looks like there is some text present already, clearing that text...</span>
+                <span class="reporter-method-output">Entering text in :anujamishra1991@gmail.com</span>
+                <span class="reporter-method-output">[Msg-Info] : Entering Text in a text field</span>
+                <span class="reporter-method-output">[Msg-Info] : Looks like there is some text present already, clearing that text...</span>
+                <span class="reporter-method-output">Entering text in :myEbay#8</span>
+                <span class="reporter-method-output">[Msg-Info] : Tapping on element...</span>
+                <span class="reporter-method-output">[Msg-Info] : Tapping on element...</span>
+                <span class="reporter-method-output">[Msg-Info] : Checking if an element is visible</span>
+                <span class="reporter-method-output">[Msg-Result] Is Displayed : true</span>
+                <span class="reporter-method-output">[Msg-Result] Is Enabled : true</span>
+                <span class="reporter-method-output">[Msg-Success] : Element is visible</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">verifySelectItemFunctionalityForeBayApp({productTitle=LG 65EG9600 OLED CURVED 4K 65 Inch TV, productCompany=Pre-Owned · LG, passsword=myEbay...)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">[Msg-Info] : Tapping on element...</span>
+                <span class="reporter-method-output">[Msg-Info] : Tapping on element...</span>
+                <span class="reporter-method-output">[Msg-Info] : Swiping on the screen</span>
+                <span class="reporter-method-output">[Msg-Info] : Tapping on element...</span>
+                <span class="reporter-method-output">An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 11.05 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ATH032863', ip: '192.168.43.174', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.2', java.version: '11.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=com.ebay.mobile, statBarHeight=63, viewportRect={top=63, left=0, width=1080, height=1731}, deviceName=emulator-5554, platform=LINUX, deviceUDID=emulator-5554, desired={appPackage=com.ebay.mobile, appActivity=com.ebay.mobile.activities.MainActivity, app=/Users/anmishra/Android/eBay.apk, automationName=UiAutomator2, platformName=Android, deviceName=emulator-5554}, platformVersion=9, webStorageEnabled=false, automationName=UiAutomator2, takesScreenshot=true, javascriptEnabled=true, platformName=Android, deviceApiLevel=28, deviceManufacturer=Google, app=/Users/anmishra/Android/eBay.apk, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, appActivity=com.ebay.mobile.activities.MainActivity, pixelRatio=2.625, locationContextEnabled=false, deviceScreenDensity=420, deviceModel=Android SDK built for x86}]
+Session ID: 4beb2e48-5a40-48e7-a189-ab8be035fdc3
+*** Element info: {Using=id, value=com.ebay.mobile:id/button_add_to_cart}</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-eBay_Android_App_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">1 ignored method</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testPacakge.EbayShoppingCartTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">launchEbayApp</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-eBay_Android_App_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">testPacakge.EbayLoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">launchEbayApp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">initEbayLoginTest</span>
+                <span class="method-start">13000 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyEbayAppLaunchScreen({productTitle=LG 65EG9600 OLED CURVED 4K 65 Inch TV, productCompany=Pre-Owned · LG, passsword=myEbay...)</span>
+                <span class="method-start">13010 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyLoginFunctionalityForeBayApp({productTitle=LG 65EG9600 OLED CURVED 4K 65 Inch TV, productCompany=Pre-Owned · LG, passsword=myEbay...)</span>
+                <span class="method-start">24306 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testPacakge.EbayShoppingCartTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">initEbayShoppingCartTestObject</span>
+                <span class="method-start">50673 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifySearchFunctionalityForeBayApp({productTitle=LG 65EG9600 OLED CURVED 4K 65 Inch TV, productCompany=Pre-Owned · LG, passsword=myEbay...)</span>
+                <span class="method-start">50675 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifySelectItemFunctionalityForeBayApp({productTitle=LG 65EG9600 OLED CURVED 4K 65 Inch TV, productCompany=Pre-Owned · LG, passsword=myEbay...)</span>
+                <span class="method-start">73823 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">verifyCheckoutFunctionalityForeBayApp({productTitle=LG 65EG9600 OLED CURVED 4K 65 Inch TV, productCompany=Pre-Owned · LG, passsword=myEbay...)</span>
+                <span class="method-start">126483 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

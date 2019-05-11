@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="8" passed="7" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Launching eBay app on emulator]]>
+    </line>
+    <line>
+      <![CDATA[[Msg-Info] : Checking if an element is visible]]>
+    </line>
+    <line>
+      <![CDATA[[Msg-Result] Is Displayed : true]]>
+    </line>
+    <line>
+      <![CDATA[[Msg-Result] Is Enabled : true]]>
+    </line>
+    <line>
+      <![CDATA[[Msg-Success] : Element is visible]]>
+    </line>
+    <line>
+      <![CDATA[[Msg-Info] : Tapping on element...]]>
+    </line>
+    <line>
+      <![CDATA[[Msg-Info] : Checking if an element is visible]]>
+    </line>
+    <line>
+      <![CDATA[[Msg-Result] Is Displayed : true]]>
+    </line>
+    <line>
+      <![CDATA[[Msg-Result] Is Enabled : true]]>
+    </line>
+    <line>
+      <![CDATA[[Msg-Success] : Element is visible]]>
+    </line>
+    <line>
+      <![CDATA[[Msg-Info] : Tapping on element...]]>
+    </line>
+    <line>
+      <![CDATA[[Msg-Info] : Entering Text in a text field]]>
+    </line>
+    <line>
+      <![CDATA[[Msg-Info] : Looks like there is some text present already, clearing that text...]]>
+    </line>
+    <line>
+      <![CDATA[Entering text in :anujamishra1991@gmail.com]]>
+    </line>
+    <line>
+      <![CDATA[[Msg-Info] : Entering Text in a text field]]>
+    </line>
+    <line>
+      <![CDATA[[Msg-Info] : Looks like there is some text present already, clearing that text...]]>
+    </line>
+    <line>
+      <![CDATA[Entering text in :myEbay#8]]>
+    </line>
+    <line>
+      <![CDATA[[Msg-Info] : Tapping on element...]]>
+    </line>
+    <line>
+      <![CDATA[[Msg-Info] : Tapping on element...]]>
+    </line>
+    <line>
+      <![CDATA[[Msg-Info] : Checking if an element is visible]]>
+    </line>
+    <line>
+      <![CDATA[[Msg-Result] Is Displayed : true]]>
+    </line>
+    <line>
+      <![CDATA[[Msg-Result] Is Enabled : true]]>
+    </line>
+    <line>
+      <![CDATA[[Msg-Success] : Element is visible]]>
+    </line>
+    <line>
+      <![CDATA[[Msg-Info] : Tapping on element...]]>
+    </line>
+    <line>
+      <![CDATA[[Msg-Info] : Entering Text in a text field]]>
+    </line>
+    <line>
+      <![CDATA[[Msg-Info] : Looks like there is some text present already, clearing that text...]]>
+    </line>
+    <line>
+      <![CDATA[Entering text in :65 inch TV]]>
+    </line>
+    <line>
+      <![CDATA[[Msg-Info] : Tapping on element...]]>
+    </line>
+    <line>
+      <![CDATA[[Msg-Info] : Tapping on element...]]>
+    </line>
+    <line>
+      <![CDATA[[Msg-Info] : Swiping on the screen]]>
+    </line>
+    <line>
+      <![CDATA[[Msg-Info] : Tapping on element...]]>
+    </line>
+    <line>
+      <![CDATA[An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 11.05 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ATH032863', ip: '192.168.43.174', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.2', java.version: '11.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=com.ebay.mobile, statBarHeight=63, viewportRect={top=63, left=0, width=1080, height=1731}, deviceName=emulator-5554, platform=LINUX, deviceUDID=emulator-5554, desired={appPackage=com.ebay.mobile, appActivity=com.ebay.mobile.activities.MainActivity, app=/Users/anmishra/Android/eBay.apk, automationName=UiAutomator2, platformName=Android, deviceName=emulator-5554}, platformVersion=9, webStorageEnabled=false, automationName=UiAutomator2, takesScreenshot=true, javascriptEnabled=true, platformName=Android, deviceApiLevel=28, deviceManufacturer=Google, app=/Users/anmishra/Android/eBay.apk, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, appActivity=com.ebay.mobile.activities.MainActivity, pixelRatio=2.625, locationContextEnabled=false, deviceScreenDensity=420, deviceModel=Android SDK built for x86}]
+Session ID: 4beb2e48-5a40-48e7-a189-ab8be035fdc3
+*** Element info: {Using=id, value=com.ebay.mobile:id/button_add_to_cart}]]>
+    </line>
+    <line>
+      <![CDATA[[Msg-Info] : Checking if an element is visible]]>
+    </line>
+    <line>
+      <![CDATA[[Msg-Info] : Element is not visible]]>
+    </line>
+    <line>
+      <![CDATA[[Msg-Info] : Checking if an element is visible]]>
+    </line>
+    <line>
+      <![CDATA[[Msg-Info] : Element is not visible]]>
+    </line>
+    <line>
+      <![CDATA[[Msg-Info] : Checking if an element is visible]]>
+    </line>
+    <line>
+      <![CDATA[[Msg-Info] : Element is not visible]]>
+    </line>
+    <line>
+      <![CDATA[[Msg-Info] : Tapping on element...]]>
+    </line>
+    <line>
+      <![CDATA[An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.99 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ATH032863', ip: '192.168.43.174', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.2', java.version: '11.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=com.ebay.mobile, statBarHeight=63, viewportRect={top=63, left=0, width=1080, height=1731}, deviceName=emulator-5554, platform=LINUX, deviceUDID=emulator-5554, desired={appPackage=com.ebay.mobile, appActivity=com.ebay.mobile.activities.MainActivity, app=/Users/anmishra/Android/eBay.apk, automationName=UiAutomator2, platformName=Android, deviceName=emulator-5554}, platformVersion=9, webStorageEnabled=false, automationName=UiAutomator2, takesScreenshot=true, javascriptEnabled=true, platformName=Android, deviceApiLevel=28, deviceManufacturer=Google, app=/Users/anmishra/Android/eBay.apk, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, appActivity=com.ebay.mobile.activities.MainActivity, pixelRatio=2.625, locationContextEnabled=false, deviceScreenDensity=420, deviceModel=Android SDK built for x86}]
+Session ID: 4beb2e48-5a40-48e7-a189-ab8be035fdc3
+*** Element info: {Using=id, value=com.ebay.mobile:id/button_view_in_cart}]]>
+    </line>
+    <line>
+      <![CDATA[[Msg-Info] :  Verifying presence of : ITEMINCART]]>
+    </line>
+    <line>
+      <![CDATA[An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.01 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ATH032863', ip: '192.168.43.174', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.2', java.version: '11.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=com.ebay.mobile, statBarHeight=63, viewportRect={top=63, left=0, width=1080, height=1731}, deviceName=emulator-5554, platform=LINUX, deviceUDID=emulator-5554, desired={appPackage=com.ebay.mobile, appActivity=com.ebay.mobile.activities.MainActivity, app=/Users/anmishra/Android/eBay.apk, automationName=UiAutomator2, platformName=Android, deviceName=emulator-5554}, platformVersion=9, webStorageEnabled=false, automationName=UiAutomator2, takesScreenshot=true, javascriptEnabled=true, platformName=Android, deviceApiLevel=28, deviceManufacturer=Google, app=/Users/anmishra/Android/eBay.apk, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, appActivity=com.ebay.mobile.activities.MainActivity, pixelRatio=2.625, locationContextEnabled=false, deviceScreenDensity=420, deviceModel=Android SDK built for x86}]
+Session ID: 4beb2e48-5a40-48e7-a189-ab8be035fdc3
+*** Element info: {Using=id, value=com.ebay.mobile:id/item_thumbnail}]]>
+    </line>
+    <line>
+      <![CDATA[[Msg-Info] :  Verifying presence of : ITEMPRISE]]>
+    </line>
+    <line>
+      <![CDATA[An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.03 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ATH032863', ip: '192.168.43.174', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.2', java.version: '11.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=com.ebay.mobile, statBarHeight=63, viewportRect={top=63, left=0, width=1080, height=1731}, deviceName=emulator-5554, platform=LINUX, deviceUDID=emulator-5554, desired={appPackage=com.ebay.mobile, appActivity=com.ebay.mobile.activities.MainActivity, app=/Users/anmishra/Android/eBay.apk, automationName=UiAutomator2, platformName=Android, deviceName=emulator-5554}, platformVersion=9, webStorageEnabled=false, automationName=UiAutomator2, takesScreenshot=true, javascriptEnabled=true, platformName=Android, deviceApiLevel=28, deviceManufacturer=Google, app=/Users/anmishra/Android/eBay.apk, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, appActivity=com.ebay.mobile.activities.MainActivity, pixelRatio=2.625, locationContextEnabled=false, deviceScreenDensity=420, deviceModel=Android SDK built for x86}]
+Session ID: 4beb2e48-5a40-48e7-a189-ab8be035fdc3
+*** Element info: {Using=id, value=com.ebay.mobile:id/item_price}]]>
+    </line>
+    <line>
+      <![CDATA[[Msg-Info] : Tapping on element...]]>
+    </line>
+    <line>
+      <![CDATA[An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.05 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ATH032863', ip: '192.168.43.174', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.2', java.version: '11.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=com.ebay.mobile, statBarHeight=63, viewportRect={top=63, left=0, width=1080, height=1731}, deviceName=emulator-5554, platform=LINUX, deviceUDID=emulator-5554, desired={appPackage=com.ebay.mobile, appActivity=com.ebay.mobile.activities.MainActivity, app=/Users/anmishra/Android/eBay.apk, automationName=UiAutomator2, platformName=Android, deviceName=emulator-5554}, platformVersion=9, webStorageEnabled=false, automationName=UiAutomator2, takesScreenshot=true, javascriptEnabled=true, platformName=Android, deviceApiLevel=28, deviceManufacturer=Google, app=/Users/anmishra/Android/eBay.apk, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, appActivity=com.ebay.mobile.activities.MainActivity, pixelRatio=2.625, locationContextEnabled=false, deviceScreenDensity=420, deviceModel=Android SDK built for x86}]
+Session ID: 4beb2e48-5a40-48e7-a189-ab8be035fdc3
+*** Element info: {Using=id, value=com.ebay.mobile:id/shopping_cart_button_layout}]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2019-05-11T10:22:18Z" name="eBay Android App Suite" finished-at="2019-05-11T10:26:01Z" duration-ms="223720">
+    <groups>
+    </groups>
+    <test started-at="2019-05-11T10:22:18Z" name="Search_Scenario" finished-at="2019-05-11T10:26:01Z" duration-ms="223720">
+      <class name="testPacakge.EbayShoppingCartTest">
+        <test-method signature="initEbayShoppingCartTestObject()[pri:0, instance:testPacakge.EbayShoppingCartTest@57bc27f5]" started-at="2019-05-11T10:23:08Z" name="initEbayShoppingCartTestObject" description="To create object." finished-at="2019-05-11T10:23:08Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initEbayShoppingCartTestObject -->
+        <test-method signature="verifySearchFunctionalityForeBayApp(java.util.HashMap)[pri:0, instance:testPacakge.EbayShoppingCartTest@57bc27f5]" started-at="2019-05-11T10:23:08Z" name="verifySearchFunctionalityForeBayApp" description="verify search functionality for eBya App." data-provider="globaldataprovider" finished-at="2019-05-11T10:23:31Z" duration-ms="23146" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{productTitle=LG 65EG9600 OLED CURVED 4K 65 Inch TV, productCompany=Pre-Owned · LG, passsword=myEbay#8, itemSearchOption=65 inch tv TV, Video & Home Audio Electronics, loginName=anujamishra1991@gmail.com, itemSearchText=65 inch TV, productPrise=$800.00}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[[Msg-Info] : Tapping on element...]]>
+            </line>
+            <line>
+              <![CDATA[[Msg-Info] : Entering Text in a text field]]>
+            </line>
+            <line>
+              <![CDATA[[Msg-Info] : Looks like there is some text present already, clearing that text...]]>
+            </line>
+            <line>
+              <![CDATA[Entering text in :65 inch TV]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifySearchFunctionalityForeBayApp -->
+        <test-method signature="verifySelectItemFunctionalityForeBayApp(java.util.HashMap)[pri:0, instance:testPacakge.EbayShoppingCartTest@57bc27f5]" started-at="2019-05-11T10:23:31Z" name="verifySelectItemFunctionalityForeBayApp" description="verify select item functionality for cart for eBya App." data-provider="globaldataprovider" finished-at="2019-05-11T10:24:24Z" duration-ms="52658" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{productTitle=LG 65EG9600 OLED CURVED 4K 65 Inch TV, productCompany=Pre-Owned · LG, passsword=myEbay#8, itemSearchOption=65 inch tv TV, Video & Home Audio Electronics, loginName=anujamishra1991@gmail.com, itemSearchText=65 inch TV, productPrise=$800.00}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[[Msg-Info] : Tapping on element...]]>
+            </line>
+            <line>
+              <![CDATA[[Msg-Info] : Tapping on element...]]>
+            </line>
+            <line>
+              <![CDATA[[Msg-Info] : Swiping on the screen]]>
+            </line>
+            <line>
+              <![CDATA[[Msg-Info] : Tapping on element...]]>
+            </line>
+            <line>
+              <![CDATA[An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 11.05 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ATH032863', ip: '192.168.43.174', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.2', java.version: '11.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=com.ebay.mobile, statBarHeight=63, viewportRect={top=63, left=0, width=1080, height=1731}, deviceName=emulator-5554, platform=LINUX, deviceUDID=emulator-5554, desired={appPackage=com.ebay.mobile, appActivity=com.ebay.mobile.activities.MainActivity, app=/Users/anmishra/Android/eBay.apk, automationName=UiAutomator2, platformName=Android, deviceName=emulator-5554}, platformVersion=9, webStorageEnabled=false, automationName=UiAutomator2, takesScreenshot=true, javascriptEnabled=true, platformName=Android, deviceApiLevel=28, deviceManufacturer=Google, app=/Users/anmishra/Android/eBay.apk, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, appActivity=com.ebay.mobile.activities.MainActivity, pixelRatio=2.625, locationContextEnabled=false, deviceScreenDensity=420, deviceModel=Android SDK built for x86}]
+Session ID: 4beb2e48-5a40-48e7-a189-ab8be035fdc3
+*** Element info: {Using=id, value=com.ebay.mobile:id/button_add_to_cart}]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifySelectItemFunctionalityForeBayApp -->
+        <test-method signature="verifyCheckoutFunctionalityForeBayApp(java.util.HashMap)[pri:0, instance:testPacakge.EbayShoppingCartTest@57bc27f5]" started-at="2019-05-11T10:24:24Z" name="verifyCheckoutFunctionalityForeBayApp" description="verify checkout item functionality for cart for eBya App." data-provider="globaldataprovider" finished-at="2019-05-11T10:26:01Z" duration-ms="97236" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{productTitle=LG 65EG9600 OLED CURVED 4K 65 Inch TV, productCompany=Pre-Owned · LG, passsword=myEbay#8, itemSearchOption=65 inch tv TV, Video & Home Audio Electronics, loginName=anujamishra1991@gmail.com, itemSearchText=65 inch TV, productPrise=$800.00}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[[Msg-Info] : Checking if an element is visible]]>
+            </line>
+            <line>
+              <![CDATA[[Msg-Info] : Element is not visible]]>
+            </line>
+            <line>
+              <![CDATA[[Msg-Info] : Checking if an element is visible]]>
+            </line>
+            <line>
+              <![CDATA[[Msg-Info] : Element is not visible]]>
+            </line>
+            <line>
+              <![CDATA[[Msg-Info] : Checking if an element is visible]]>
+            </line>
+            <line>
+              <![CDATA[[Msg-Info] : Element is not visible]]>
+            </line>
+            <line>
+              <![CDATA[[Msg-Info] : Tapping on element...]]>
+            </line>
+            <line>
+              <![CDATA[An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.99 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ATH032863', ip: '192.168.43.174', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.2', java.version: '11.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=com.ebay.mobile, statBarHeight=63, viewportRect={top=63, left=0, width=1080, height=1731}, deviceName=emulator-5554, platform=LINUX, deviceUDID=emulator-5554, desired={appPackage=com.ebay.mobile, appActivity=com.ebay.mobile.activities.MainActivity, app=/Users/anmishra/Android/eBay.apk, automationName=UiAutomator2, platformName=Android, deviceName=emulator-5554}, platformVersion=9, webStorageEnabled=false, automationName=UiAutomator2, takesScreenshot=true, javascriptEnabled=true, platformName=Android, deviceApiLevel=28, deviceManufacturer=Google, app=/Users/anmishra/Android/eBay.apk, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, appActivity=com.ebay.mobile.activities.MainActivity, pixelRatio=2.625, locationContextEnabled=false, deviceScreenDensity=420, deviceModel=Android SDK built for x86}]
+Session ID: 4beb2e48-5a40-48e7-a189-ab8be035fdc3
+*** Element info: {Using=id, value=com.ebay.mobile:id/button_view_in_cart}]]>
+            </line>
+            <line>
+              <![CDATA[[Msg-Info] :  Verifying presence of : ITEMINCART]]>
+            </line>
+            <line>
+              <![CDATA[An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.01 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ATH032863', ip: '192.168.43.174', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.2', java.version: '11.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=com.ebay.mobile, statBarHeight=63, viewportRect={top=63, left=0, width=1080, height=1731}, deviceName=emulator-5554, platform=LINUX, deviceUDID=emulator-5554, desired={appPackage=com.ebay.mobile, appActivity=com.ebay.mobile.activities.MainActivity, app=/Users/anmishra/Android/eBay.apk, automationName=UiAutomator2, platformName=Android, deviceName=emulator-5554}, platformVersion=9, webStorageEnabled=false, automationName=UiAutomator2, takesScreenshot=true, javascriptEnabled=true, platformName=Android, deviceApiLevel=28, deviceManufacturer=Google, app=/Users/anmishra/Android/eBay.apk, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, appActivity=com.ebay.mobile.activities.MainActivity, pixelRatio=2.625, locationContextEnabled=false, deviceScreenDensity=420, deviceModel=Android SDK built for x86}]
+Session ID: 4beb2e48-5a40-48e7-a189-ab8be035fdc3
+*** Element info: {Using=id, value=com.ebay.mobile:id/item_thumbnail}]]>
+            </line>
+            <line>
+              <![CDATA[[Msg-Info] :  Verifying presence of : ITEMPRISE]]>
+            </line>
+            <line>
+              <![CDATA[An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.03 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ATH032863', ip: '192.168.43.174', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.2', java.version: '11.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=com.ebay.mobile, statBarHeight=63, viewportRect={top=63, left=0, width=1080, height=1731}, deviceName=emulator-5554, platform=LINUX, deviceUDID=emulator-5554, desired={appPackage=com.ebay.mobile, appActivity=com.ebay.mobile.activities.MainActivity, app=/Users/anmishra/Android/eBay.apk, automationName=UiAutomator2, platformName=Android, deviceName=emulator-5554}, platformVersion=9, webStorageEnabled=false, automationName=UiAutomator2, takesScreenshot=true, javascriptEnabled=true, platformName=Android, deviceApiLevel=28, deviceManufacturer=Google, app=/Users/anmishra/Android/eBay.apk, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, appActivity=com.ebay.mobile.activities.MainActivity, pixelRatio=2.625, locationContextEnabled=false, deviceScreenDensity=420, deviceModel=Android SDK built for x86}]
+Session ID: 4beb2e48-5a40-48e7-a189-ab8be035fdc3
+*** Element info: {Using=id, value=com.ebay.mobile:id/item_price}]]>
+            </line>
+            <line>
+              <![CDATA[[Msg-Info] : Tapping on element...]]>
+            </line>
+            <line>
+              <![CDATA[An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.05 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ATH032863', ip: '192.168.43.174', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.2', java.version: '11.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=com.ebay.mobile, statBarHeight=63, viewportRect={top=63, left=0, width=1080, height=1731}, deviceName=emulator-5554, platform=LINUX, deviceUDID=emulator-5554, desired={appPackage=com.ebay.mobile, appActivity=com.ebay.mobile.activities.MainActivity, app=/Users/anmishra/Android/eBay.apk, automationName=UiAutomator2, platformName=Android, deviceName=emulator-5554}, platformVersion=9, webStorageEnabled=false, automationName=UiAutomator2, takesScreenshot=true, javascriptEnabled=true, platformName=Android, deviceApiLevel=28, deviceManufacturer=Google, app=/Users/anmishra/Android/eBay.apk, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, appActivity=com.ebay.mobile.activities.MainActivity, pixelRatio=2.625, locationContextEnabled=false, deviceScreenDensity=420, deviceModel=Android SDK built for x86}]
+Session ID: 4beb2e48-5a40-48e7-a189-ab8be035fdc3
+*** Element info: {Using=id, value=com.ebay.mobile:id/shopping_cart_button_layout}]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyCheckoutFunctionalityForeBayApp -->
+      </class> <!-- testPacakge.EbayShoppingCartTest -->
+      <class name="testPacakge.EbayLoginTest">
+        <test-method is-config="true" signature="launchEbayApp()[pri:0, instance:testPacakge.EbayLoginTest@5c7933ad]" started-at="2019-05-11T10:22:18Z" name="launchEbayApp" finished-at="2019-05-11T10:22:31Z" duration-ms="12982" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Launching eBay app on emulator]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchEbayApp -->
+        <test-method signature="initEbayLoginTest()[pri:0, instance:testPacakge.EbayLoginTest@5c7933ad]" started-at="2019-05-11T10:22:31Z" name="initEbayLoginTest" description="To create object." finished-at="2019-05-11T10:22:31Z" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initEbayLoginTest -->
+        <test-method signature="verifyEbayAppLaunchScreen(java.util.HashMap)[pri:0, instance:testPacakge.EbayLoginTest@5c7933ad]" started-at="2019-05-11T10:22:31Z" name="verifyEbayAppLaunchScreen" description="verify Launch screen one of eBay Android app and navigate to Login screen." data-provider="globaldataprovider" finished-at="2019-05-11T10:22:42Z" duration-ms="11293" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{productTitle=LG 65EG9600 OLED CURVED 4K 65 Inch TV, productCompany=Pre-Owned · LG, passsword=myEbay#8, itemSearchOption=65 inch tv TV, Video & Home Audio Electronics, loginName=anujamishra1991@gmail.com, itemSearchText=65 inch TV, productPrise=$800.00}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[[Msg-Info] : Checking if an element is visible]]>
+            </line>
+            <line>
+              <![CDATA[[Msg-Result] Is Displayed : true]]>
+            </line>
+            <line>
+              <![CDATA[[Msg-Result] Is Enabled : true]]>
+            </line>
+            <line>
+              <![CDATA[[Msg-Success] : Element is visible]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyEbayAppLaunchScreen -->
+        <test-method signature="verifyLoginFunctionalityForeBayApp(java.util.HashMap)[pri:0, instance:testPacakge.EbayLoginTest@5c7933ad]" started-at="2019-05-11T10:22:42Z" name="verifyLoginFunctionalityForeBayApp" description="verify login functionality for eBya App." data-provider="globaldataprovider" finished-at="2019-05-11T10:23:08Z" duration-ms="26366" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{productTitle=LG 65EG9600 OLED CURVED 4K 65 Inch TV, productCompany=Pre-Owned · LG, passsword=myEbay#8, itemSearchOption=65 inch tv TV, Video & Home Audio Electronics, loginName=anujamishra1991@gmail.com, itemSearchText=65 inch TV, productPrise=$800.00}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[[Msg-Info] : Tapping on element...]]>
+            </line>
+            <line>
+              <![CDATA[[Msg-Info] : Checking if an element is visible]]>
+            </line>
+            <line>
+              <![CDATA[[Msg-Result] Is Displayed : true]]>
+            </line>
+            <line>
+              <![CDATA[[Msg-Result] Is Enabled : true]]>
+            </line>
+            <line>
+              <![CDATA[[Msg-Success] : Element is visible]]>
+            </line>
+            <line>
+              <![CDATA[[Msg-Info] : Tapping on element...]]>
+            </line>
+            <line>
+              <![CDATA[[Msg-Info] : Entering Text in a text field]]>
+            </line>
+            <line>
+              <![CDATA[[Msg-Info] : Looks like there is some text present already, clearing that text...]]>
+            </line>
+            <line>
+              <![CDATA[Entering text in :anujamishra1991@gmail.com]]>
+            </line>
+            <line>
+              <![CDATA[[Msg-Info] : Entering Text in a text field]]>
+            </line>
+            <line>
+              <![CDATA[[Msg-Info] : Looks like there is some text present already, clearing that text...]]>
+            </line>
+            <line>
+              <![CDATA[Entering text in :myEbay#8]]>
+            </line>
+            <line>
+              <![CDATA[[Msg-Info] : Tapping on element...]]>
+            </line>
+            <line>
+              <![CDATA[[Msg-Info] : Tapping on element...]]>
+            </line>
+            <line>
+              <![CDATA[[Msg-Info] : Checking if an element is visible]]>
+            </line>
+            <line>
+              <![CDATA[[Msg-Result] Is Displayed : true]]>
+            </line>
+            <line>
+              <![CDATA[[Msg-Result] Is Enabled : true]]>
+            </line>
+            <line>
+              <![CDATA[[Msg-Success] : Element is visible]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyLoginFunctionalityForeBayApp -->
+      </class> <!-- testPacakge.EbayLoginTest -->
+    </test> <!-- Search_Scenario -->
+  </suite> <!-- eBay Android App Suite -->
+</testng-results>

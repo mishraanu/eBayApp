@@ -1,0 +1,229 @@
+<html>
+<head>
+<title>TestNG:  Search_Scenario</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Search_Scenario</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>7/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sat May 11 15:52:18 IST 2019</td>
+</tr>
+<tr><td>Total time:</td><td>223 seconds (223720 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testPacakge.EbayLoginTest.initEbayLoginTest()'><b>initEbayLoginTest</b><br>Test class: testPacakge.EbayLoginTest<br>Test method: To create object.</td>
+<td></td>
+<td>0</td>
+<td>testPacakge.EbayLoginTest@5c7933ad</td></tr>
+<tr>
+<td title='testPacakge.EbayShoppingCartTest.initEbayShoppingCartTestObject()'><b>initEbayShoppingCartTestObject</b><br>Test class: testPacakge.EbayShoppingCartTest<br>Test method: To create object.</td>
+<td></td>
+<td>0</td>
+<td>testPacakge.EbayShoppingCartTest@57bc27f5</td></tr>
+<tr>
+<td title='testPacakge.EbayShoppingCartTest.verifyCheckoutFunctionalityForeBayApp()'><b>verifyCheckoutFunctionalityForeBayApp</b><br>Test class: testPacakge.EbayShoppingCartTest<br>Test method: verify checkout item functionality for cart for eBya App.<br>Parameters: {productTitle=LG 65EG9600 OLED CURVED 4K 65 Inch TV, productCompany=Pre-Owned · LG, passsword=myEbay#8, itemSearchOption=65 inch tv TV, Video & Home Audio Electronics, loginName=anujamishra1991@gmail.com, itemSearchText=65 inch TV, productPrise=$800.00}<br/>
+<a href="#Output-1982958205" onClick='toggleBox("Output-1982958205", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1982958205" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1982958205">
+[Msg-Info] : Checking if an element is visible<br/>
+[Msg-Info] : Element is not visible<br/>
+[Msg-Info] : Checking if an element is visible<br/>
+[Msg-Info] : Element is not visible<br/>
+[Msg-Info] : Checking if an element is visible<br/>
+[Msg-Info] : Element is not visible<br/>
+[Msg-Info] : Tapping on element...<br/>
+An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.99 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ATH032863', ip: '192.168.43.174', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.2', java.version: '11.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=com.ebay.mobile, statBarHeight=63, viewportRect={top=63, left=0, width=1080, height=1731}, deviceName=emulator-5554, platform=LINUX, deviceUDID=emulator-5554, desired={appPackage=com.ebay.mobile, appActivity=com.ebay.mobile.activities.MainActivity, app=/Users/anmishra/Android/eBay.apk, automationName=UiAutomator2, platformName=Android, deviceName=emulator-5554}, platformVersion=9, webStorageEnabled=false, automationName=UiAutomator2, takesScreenshot=true, javascriptEnabled=true, platformName=Android, deviceApiLevel=28, deviceManufacturer=Google, app=/Users/anmishra/Android/eBay.apk, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, appActivity=com.ebay.mobile.activities.MainActivity, pixelRatio=2.625, locationContextEnabled=false, deviceScreenDensity=420, deviceModel=Android SDK built for x86}]
+Session ID: 4beb2e48-5a40-48e7-a189-ab8be035fdc3
+*** Element info: {Using=id, value=com.ebay.mobile:id/button_view_in_cart}<br/>
+[Msg-Info] :  Verifying presence of : ITEMINCART<br/>
+An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.01 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ATH032863', ip: '192.168.43.174', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.2', java.version: '11.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=com.ebay.mobile, statBarHeight=63, viewportRect={top=63, left=0, width=1080, height=1731}, deviceName=emulator-5554, platform=LINUX, deviceUDID=emulator-5554, desired={appPackage=com.ebay.mobile, appActivity=com.ebay.mobile.activities.MainActivity, app=/Users/anmishra/Android/eBay.apk, automationName=UiAutomator2, platformName=Android, deviceName=emulator-5554}, platformVersion=9, webStorageEnabled=false, automationName=UiAutomator2, takesScreenshot=true, javascriptEnabled=true, platformName=Android, deviceApiLevel=28, deviceManufacturer=Google, app=/Users/anmishra/Android/eBay.apk, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, appActivity=com.ebay.mobile.activities.MainActivity, pixelRatio=2.625, locationContextEnabled=false, deviceScreenDensity=420, deviceModel=Android SDK built for x86}]
+Session ID: 4beb2e48-5a40-48e7-a189-ab8be035fdc3
+*** Element info: {Using=id, value=com.ebay.mobile:id/item_thumbnail}<br/>
+[Msg-Info] :  Verifying presence of : ITEMPRISE<br/>
+An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.03 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ATH032863', ip: '192.168.43.174', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.2', java.version: '11.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=com.ebay.mobile, statBarHeight=63, viewportRect={top=63, left=0, width=1080, height=1731}, deviceName=emulator-5554, platform=LINUX, deviceUDID=emulator-5554, desired={appPackage=com.ebay.mobile, appActivity=com.ebay.mobile.activities.MainActivity, app=/Users/anmishra/Android/eBay.apk, automationName=UiAutomator2, platformName=Android, deviceName=emulator-5554}, platformVersion=9, webStorageEnabled=false, automationName=UiAutomator2, takesScreenshot=true, javascriptEnabled=true, platformName=Android, deviceApiLevel=28, deviceManufacturer=Google, app=/Users/anmishra/Android/eBay.apk, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, appActivity=com.ebay.mobile.activities.MainActivity, pixelRatio=2.625, locationContextEnabled=false, deviceScreenDensity=420, deviceModel=Android SDK built for x86}]
+Session ID: 4beb2e48-5a40-48e7-a189-ab8be035fdc3
+*** Element info: {Using=id, value=com.ebay.mobile:id/item_price}<br/>
+[Msg-Info] : Tapping on element...<br/>
+An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.05 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ATH032863', ip: '192.168.43.174', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.2', java.version: '11.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=com.ebay.mobile, statBarHeight=63, viewportRect={top=63, left=0, width=1080, height=1731}, deviceName=emulator-5554, platform=LINUX, deviceUDID=emulator-5554, desired={appPackage=com.ebay.mobile, appActivity=com.ebay.mobile.activities.MainActivity, app=/Users/anmishra/Android/eBay.apk, automationName=UiAutomator2, platformName=Android, deviceName=emulator-5554}, platformVersion=9, webStorageEnabled=false, automationName=UiAutomator2, takesScreenshot=true, javascriptEnabled=true, platformName=Android, deviceApiLevel=28, deviceManufacturer=Google, app=/Users/anmishra/Android/eBay.apk, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, appActivity=com.ebay.mobile.activities.MainActivity, pixelRatio=2.625, locationContextEnabled=false, deviceScreenDensity=420, deviceModel=Android SDK built for x86}]
+Session ID: 4beb2e48-5a40-48e7-a189-ab8be035fdc3
+*** Element info: {Using=id, value=com.ebay.mobile:id/shopping_cart_button_layout}<br/>
+</div>
+</td>
+<td></td>
+<td>97</td>
+<td>testPacakge.EbayShoppingCartTest@57bc27f5</td></tr>
+<tr>
+<td title='testPacakge.EbayLoginTest.verifyEbayAppLaunchScreen()'><b>verifyEbayAppLaunchScreen</b><br>Test class: testPacakge.EbayLoginTest<br>Test method: verify Launch screen one of eBay Android app and navigate to Login screen.<br>Parameters: {productTitle=LG 65EG9600 OLED CURVED 4K 65 Inch TV, productCompany=Pre-Owned · LG, passsword=myEbay#8, itemSearchOption=65 inch tv TV, Video & Home Audio Electronics, loginName=anujamishra1991@gmail.com, itemSearchText=65 inch TV, productPrise=$800.00}<br/>
+<a href="#Output-108982313" onClick='toggleBox("Output-108982313", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-108982313" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-108982313">
+[Msg-Info] : Checking if an element is visible<br/>
+[Msg-Result] Is Displayed : true<br/>
+[Msg-Result] Is Enabled : true<br/>
+[Msg-Success] : Element is visible<br/>
+</div>
+</td>
+<td></td>
+<td>11</td>
+<td>testPacakge.EbayLoginTest@5c7933ad</td></tr>
+<tr>
+<td title='testPacakge.EbayLoginTest.verifyLoginFunctionalityForeBayApp()'><b>verifyLoginFunctionalityForeBayApp</b><br>Test class: testPacakge.EbayLoginTest<br>Test method: verify login functionality for eBya App.<br>Parameters: {productTitle=LG 65EG9600 OLED CURVED 4K 65 Inch TV, productCompany=Pre-Owned · LG, passsword=myEbay#8, itemSearchOption=65 inch tv TV, Video & Home Audio Electronics, loginName=anujamishra1991@gmail.com, itemSearchText=65 inch TV, productPrise=$800.00}<br/>
+<a href="#Output-1869673263" onClick='toggleBox("Output-1869673263", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1869673263" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1869673263">
+[Msg-Info] : Tapping on element...<br/>
+[Msg-Info] : Checking if an element is visible<br/>
+[Msg-Result] Is Displayed : true<br/>
+[Msg-Result] Is Enabled : true<br/>
+[Msg-Success] : Element is visible<br/>
+[Msg-Info] : Tapping on element...<br/>
+[Msg-Info] : Entering Text in a text field<br/>
+[Msg-Info] : Looks like there is some text present already, clearing that text...<br/>
+Entering text in :anujamishra1991@gmail.com<br/>
+[Msg-Info] : Entering Text in a text field<br/>
+[Msg-Info] : Looks like there is some text present already, clearing that text...<br/>
+Entering text in :myEbay#8<br/>
+[Msg-Info] : Tapping on element...<br/>
+[Msg-Info] : Tapping on element...<br/>
+[Msg-Info] : Checking if an element is visible<br/>
+[Msg-Result] Is Displayed : true<br/>
+[Msg-Result] Is Enabled : true<br/>
+[Msg-Success] : Element is visible<br/>
+</div>
+</td>
+<td></td>
+<td>26</td>
+<td>testPacakge.EbayLoginTest@5c7933ad</td></tr>
+<tr>
+<td title='testPacakge.EbayShoppingCartTest.verifySearchFunctionalityForeBayApp()'><b>verifySearchFunctionalityForeBayApp</b><br>Test class: testPacakge.EbayShoppingCartTest<br>Test method: verify search functionality for eBya App.<br>Parameters: {productTitle=LG 65EG9600 OLED CURVED 4K 65 Inch TV, productCompany=Pre-Owned · LG, passsword=myEbay#8, itemSearchOption=65 inch tv TV, Video & Home Audio Electronics, loginName=anujamishra1991@gmail.com, itemSearchText=65 inch TV, productPrise=$800.00}<br/>
+<a href="#Output-1635772897" onClick='toggleBox("Output-1635772897", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1635772897" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1635772897">
+[Msg-Info] : Tapping on element...<br/>
+[Msg-Info] : Entering Text in a text field<br/>
+[Msg-Info] : Looks like there is some text present already, clearing that text...<br/>
+Entering text in :65 inch TV<br/>
+</div>
+</td>
+<td></td>
+<td>23</td>
+<td>testPacakge.EbayShoppingCartTest@57bc27f5</td></tr>
+<tr>
+<td title='testPacakge.EbayShoppingCartTest.verifySelectItemFunctionalityForeBayApp()'><b>verifySelectItemFunctionalityForeBayApp</b><br>Test class: testPacakge.EbayShoppingCartTest<br>Test method: verify select item functionality for cart for eBya App.<br>Parameters: {productTitle=LG 65EG9600 OLED CURVED 4K 65 Inch TV, productCompany=Pre-Owned · LG, passsword=myEbay#8, itemSearchOption=65 inch tv TV, Video & Home Audio Electronics, loginName=anujamishra1991@gmail.com, itemSearchText=65 inch TV, productPrise=$800.00}<br/>
+<a href="#Output-773348567" onClick='toggleBox("Output-773348567", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-773348567" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-773348567">
+[Msg-Info] : Tapping on element...<br/>
+[Msg-Info] : Tapping on element...<br/>
+[Msg-Info] : Swiping on the screen<br/>
+[Msg-Info] : Tapping on element...<br/>
+An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 11.05 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'ATH032863', ip: '192.168.43.174', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.14.2', java.version: '11.0.2'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{appPackage=com.ebay.mobile, statBarHeight=63, viewportRect={top=63, left=0, width=1080, height=1731}, deviceName=emulator-5554, platform=LINUX, deviceUDID=emulator-5554, desired={appPackage=com.ebay.mobile, appActivity=com.ebay.mobile.activities.MainActivity, app=/Users/anmishra/Android/eBay.apk, automationName=UiAutomator2, platformName=Android, deviceName=emulator-5554}, platformVersion=9, webStorageEnabled=false, automationName=UiAutomator2, takesScreenshot=true, javascriptEnabled=true, platformName=Android, deviceApiLevel=28, deviceManufacturer=Google, app=/Users/anmishra/Android/eBay.apk, deviceScreenSize=1080x1920, networkConnectionEnabled=true, warnings={}, databaseEnabled=false, appActivity=com.ebay.mobile.activities.MainActivity, pixelRatio=2.625, locationContextEnabled=false, deviceScreenDensity=420, deviceModel=Android SDK built for x86}]
+Session ID: 4beb2e48-5a40-48e7-a189-ab8be035fdc3
+*** Element info: {Using=id, value=com.ebay.mobile:id/button_add_to_cart}<br/>
+</div>
+</td>
+<td></td>
+<td>52</td>
+<td>testPacakge.EbayShoppingCartTest@57bc27f5</td></tr>
+</table><p>
+</body>
+</html>

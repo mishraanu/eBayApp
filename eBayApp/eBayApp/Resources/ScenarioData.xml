@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Data>
+    
+    <scenario  name="default">
+        
+        <testdata name="loginName" value="anujamishra1991@gmail.com"/>
+        <testdata name="passsword" value="myEbay#8"/>
+        
+        <testdata name="itemSearchText" value="65 inch TV"/>
+        <testdata name="itemSearchOption" value="65 inch tv TV, Video &#38; Home Audio Electronics"/>
+ 
+ 
+         <!--  <testdata name="productTitle" value="LG 65UK6090PUA 65&#34; Inch LED 3840 x 2160 4K Ultra High Definition UHD Smart TV"/> -->
+            <testdata name="productTitle" value="LG 65EG9600 OLED CURVED 4K 65 Inch TV"/>
+         
+          <testdata name="productCompany" value="Pre-Owned · LG"/>
+          <testdata name="productPrise" value="&#36;800.00"/>
+ 
+        
+       
+    </scenario>
+    
+ </Data>
+    
