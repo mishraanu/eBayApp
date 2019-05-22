@@ -2,6 +2,7 @@ package basePackage;
 
 import java.util.HashMap;
 import java.util.List;
+import java.util.concurrent.TimeUnit;
 import java.util.logging.Level;
 
 
@@ -12,6 +13,8 @@ import org.openqa.selenium.StaleElementReferenceException;
 import org.openqa.selenium.WebDriverException;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.remote.RemoteWebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import io.appium.java_client.MobileBy;
 import io.appium.java_client.MobileElement;
@@ -82,7 +85,7 @@ public static WebElement sortOption5 =null;
 
 
 
-
+public static WebDriverWait wait=new WebDriverWait(driver, 10);
 
 //Default constructor
 public BasicUserActions() throws Exception
@@ -103,23 +106,21 @@ public BasicUserActions() throws Exception
 			WebElement genericElement = null;
 		
 
-			Thread.sleep(100);
-
 			logger.log("[Msg-Info] : Checking if an element is visible");
 
 			switch(type)
 			{
 				case XPATH:
-					genericElement = driver.findElement(By.xpath(locator));
+					genericElement = wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath(locator)));
 					break;
 				case NAME:
-					genericElement = driver.findElement(By.name(locator));
+					genericElement = wait.until(ExpectedConditions.presenceOfElementLocated(By.name(locator)));
 					break;
 				case ID:
-					genericElement = driver.findElement(By.id(locator));
+					genericElement = wait.until(ExpectedConditions.presenceOfElementLocated(By.id(locator)));
 					break;
 				case ACCID:
-					genericElement = driver.findElement(MobileBy.AccessibilityId(locator));
+					genericElement = wait.until(ExpectedConditions.presenceOfElementLocated(MobileBy.AccessibilityId(locator)));
 					break;
 					
 				default:
@@ -162,7 +163,7 @@ public BasicUserActions() throws Exception
 			WebElement genericElement = null;
 			
 			logger.log("[Msg-Info] : Tapping on element...");
-			Thread.sleep(1000);
+			
 			switch(type)
 			{
 				case XPATH:
@@ -203,7 +204,7 @@ public BasicUserActions() throws Exception
 		{
 			WebElement genericElement = null;
 			 
-			Thread.sleep(500);
+			
 	
 			logger.log("[Msg-Info] : Entering Text in a text field");
 	
@@ -247,7 +248,7 @@ public BasicUserActions() throws Exception
 			catch(WebDriverException e)
 			{
 				logger.log("[Msg-Info] : In catch");
-				Thread.sleep(1000);
+				driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 				
 				genericElement.clear();
 				genericElement.sendKeys(textToEnter);
@@ -418,7 +419,9 @@ public BasicUserActions() throws Exception
 		{
 
 			WebElement genericElement = null;
-			Thread.sleep(100);
+	
+
+			
 			logger.log("[Msg-Info] : Checking if text on an element is correct");
 
 			switch(type)
@@ -543,7 +546,7 @@ public BasicUserActions() throws Exception
 			    while(loadingElement.isDisplayed() || loadingElement.isEnabled())
 				{
 			    	System.out.println("[Msg-Info] : Waiting for data to get load...");
-					Thread.sleep(1000);
+					
 				}
 	       }
 		

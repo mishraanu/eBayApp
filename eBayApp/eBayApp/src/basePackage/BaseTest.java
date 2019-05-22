@@ -76,15 +76,11 @@ public class BaseTest extends RemoteWebDriver
 		
 			driver = new AndroidDriver(new URL("http://0.0.0.0:4723/wd/hub"), Capabilites);
 			
-			driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+			driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 			
-			//td = new TestDataReader("Res/Locators.properties");
-			//locatorMap = td.getDataMap();
-			
-			Thread.sleep(1000);
-			Thread.sleep(1000);
-			Thread.sleep(1000);
-			} catch (Exception e) 
+		
+			} 
+			catch (Exception e) 
 			{
 				e.printStackTrace();
 			}

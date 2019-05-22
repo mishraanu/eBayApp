@@ -3,7 +3,7 @@ package testPacakge;
 
 
 import java.util.HashMap;
-
+import java.util.concurrent.TimeUnit;
 
 import org.testng.annotations.Test;
 
@@ -49,9 +49,9 @@ public class EbayShoppingCartTest extends BaseTest
 		//selecting LG prouduct 
 		BasicUserActions.clickOnElement(findType.XPATH,"//android.support.v7.widget.RecyclerView/android.widget.FrameLayout[2]");
 		verifyTrue(basicUserActions.verifyAndSelectItemFromEbayList(dataMap.get("productTitle"),dataMap.get("productPrise")),"[Msg-Failure] :Procut data was incorrect");
-		Thread.sleep(2000);
+		
 		basicUserActions.swipeOnScreen(42,874,swipeType.BTT,100);
-		Thread.sleep(2000);
+		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 		//Adding item to cart
 		BasicUserActions.clickOnElement(findType.ID,"com.ebay.mobile:id/button_add_to_cart");	
 
